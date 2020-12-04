@@ -566,7 +566,7 @@ def main():
     subparser.add_argument("--numpy-seed", type=int)
     subparser.add_argument("--model-path-base", required=True)
     subparser.add_argument("--evalb-dir", default="EVALB/")
-    subparser.add_argument("--train-path", default="data/train_con_txt")
+    subparser.add_argument("--train-path", default="data/train_con.txt")
     subparser.add_argument("--dev-path", default="data/dev_con.txt")
     subparser.add_argument("--batch-size", type=int, default=250)
     subparser.add_argument("--subbatch-max-tokens", type=int, default=2000)

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 python src_joint/main.py train \
  --model-path-base models/joint_single \
- --epochs 150 \
+ --epochs 4 \
  --use-chars-lstm \
  --use-words \
  --use-tags \
@@ -13,7 +13,7 @@ python src_joint/main.py train \
  --model-name joint_single \
  --embedding-type glove \
  --checks-per-epoch 4 \
- --train-ptb-path data/02-21.10way.clean \
- --dev-ptb-path data/22.auto.clean \
- --dep-train-ptb-path data/ptb_train_3.3.0.sd \
- --dep-dev-ptb-path data/ptb_dev_3.3.0.sd
+ --train-ptb-path data/train_con.txt \
+ --dev-ptb-path data/dev_con.txt \
+ --dep-train-ptb-path data/train_dep.txt \
+ --dep-dev-ptb-path data/dev_dep.txt

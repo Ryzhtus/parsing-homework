@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 python src_joint/main.py train \
  --model-path-base models/joint_bert \
-  --epochs 100 \
+  --epochs 4 \
  --use-bert \
  --const-lada 0.8 \
  --dataset ptb \

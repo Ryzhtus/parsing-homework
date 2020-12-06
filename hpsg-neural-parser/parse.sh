@@ -8,4 +8,4 @@ python src_joint/main.py parse \
 --output-path-syndep output_syndephead.txt \
 --output-path-synlabel output_syndeplabel.txt \
 --embedding-path data/glove.gz \
---model-path-base models/joint_bert_dev=95.55_devuas=96.67_devlas=94.86.pt
+--model-path-base models/joint_bert_best_dev=95.15_devuas=96.49_devlas=94.21.pt

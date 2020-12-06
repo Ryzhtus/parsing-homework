@@ -4,4 +4,4 @@ python src_joint/main.py test \
 --consttest-ptb-path data/test_con.txt \
 --deptest-ptb-path data/test_dep.txt \
 --embedding-path data/glove.gz \
---model-path-base models/joint_cwt_best_dev=93.85_devuas=95.87_devlas=94.47
+--model-path-base models/joint_bert_best_dev=95.15_devuas=96.49_devlas=94.21.pt

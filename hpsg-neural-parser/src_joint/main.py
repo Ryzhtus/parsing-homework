@@ -449,7 +449,7 @@ def run_train(args, hparams):
                 'spec': parser.spec,
                 'state_dict': parser.state_dict(),
                 'trainer' : trainer.state_dict(),
-                }, best_model_path + ".pt")
+                }, besthh_model_path + ".pt")
 
 
     for epoch in itertools.count(start=1):

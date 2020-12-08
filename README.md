@@ -20,7 +20,7 @@ test-fscore (Recall=94.93, Precision=95.71, FScore=95.32, CompleteMatch=52.24) t
 
 ---
 
-dependency-parser-shkunkov - ноутбук с обучением и тестом парсера зависимостей.<br/>
+**dependency-parser-shkunkov** - ноутбук с обучением и тестом парсера зависимостей.<br/>
 Использовал HPSG (Zhou, Zhao) парсер с BERT.
 Результаты для тестовых данных (есть в ноутбуке):<br/>
 
@@ -39,4 +39,4 @@ best test Root: corr: 2370, total: 2416, acc: 98.10%
 --- 
 
 ### Семинар
-seminar-shkunkov - решенный семинарский ноутбук
+**seminar-shkunkov** - решенный семинарский ноутбук
